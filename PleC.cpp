@@ -93,8 +93,8 @@ PleC::PleC():
   lftdiff_mrCckA(mRNA_CckA, none, 1.0, diffusion_lft, -1),
   rgtdiff_mrCckA(mRNA_CckA, none, 1.0, diffusion_rgt, -1),
   /*CtrA mRNA reactions*/
-  syn_OrimrCtrA(gene_ori, mRNA_CtrA, 0.625, syn),
-  syn_DupmrCtrA(gene_dup, mRNA_CtrA, 0.625, syn),
+  syn_OrimrCtrA(gene_ori, mRNA_CtrA, 6.25, syn),
+  syn_DupmrCtrA(gene_dup, mRNA_CtrA, 6.25, syn),
   deg_mrCtrA(mRNA_CtrA, none, 0.25, deg),
   lftdiff_mrCtrA(mRNA_CtrA, none, 1.0, diffusion_lft, -1),
   rgtdiff_mrCtrA(mRNA_CtrA, none, 1.0, diffusion_rgt, -1),
